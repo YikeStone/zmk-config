@@ -1,0 +1,12 @@
+/ {
+    behaviors {
+        &lt {
+            tapping-term-ms = <300>;
+            retro_tap = <1>;
+        };
+
+        &mt {
+            tapping-term-ms = <300>;
+        };
+    };
+};
