@@ -16,11 +16,12 @@
 &mt {
     tapping-term-ms = <300>;
     retro-tap;
+    flavor = "tap-preferred";
 };
 
 &lt {
     tapping-term-ms = <300>;
-    flavor = "hold-preferred";
+    flavor = "tap-preferred";
 };
 
 / {
@@ -49,7 +50,9 @@
                    &kp LEFT_ALT  &kp SPACE  &kp LEFT_WIN  &lt 2 TAB  &mt LCTRL ESCAPE    &kp ENTER  &kp SPACE  &kp BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_KBIA_NEXT C_KBIA_PREV>,
+                <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         Gaming {
