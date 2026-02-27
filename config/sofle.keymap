@@ -15,9 +15,7 @@
 
 &mt {
     tapping-term-ms = <300>;
-    retro-tap;
-    flavor = "tap-preferred";
-    hold-trigger-on-release;
+    flavor = "tap-unless-interrupted";
 };
 
 &lt {
