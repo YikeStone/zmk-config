@@ -165,7 +165,7 @@ jobs:
           [ -f "${{ env.build_dir }}/zephyr/zmk.elf" ] && \
             cp "${{ env.build_dir }}/zephyr/zmk.elf" "${{ env.build_dir }}/artifacts/${{ env.artifact_name }}.elf"
 
-          ls -lah "${{ env.build_dir }}/artifacts"
+          ls -lah "${{ env.build_dir }}/artifacts/"
           
       - name: Archive (${{ env.display_name }})
         uses: actions/upload-artifact@v4
