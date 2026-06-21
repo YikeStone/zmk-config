@@ -29,6 +29,5 @@ include:
     shield: settings_reset
   - board: nrf52840dongle_nrf52840
     shield: sofle_dongle
-    snippet: studio-rpc-usb-uart
   - board: nrf52840dongle_nrf52840
     shield: settings_reset
