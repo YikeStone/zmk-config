@@ -31,3 +31,4 @@ include:
     shield: sofle_dongle
   - board: nrf52840dongle_nrf52840
     shield: settings_reset
+    cmake-args: -DCONFIG_ZMK_SETTINGS_RESET_ON_START=y
