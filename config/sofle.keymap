@@ -67,7 +67,7 @@
         };
 
         function_keys {
-            display-name = "tmp";
+            display-name = "fn_keys";
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
